@@ -37,6 +37,8 @@ android {
 
 dependencies {
 
+    implementation("com.vinted:android-bloom-marketplace:1.21.0")
+    implementation("com.vinted:android-bloom-assets-marketplace:0.169.0")
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.9.0")
