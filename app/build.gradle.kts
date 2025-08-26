@@ -42,7 +42,7 @@ dependencies {
     implementation("com.vinted:android-bloom-marketplace:2.28.0") {
         exclude(group = "com.vinted", module = "android-bloom-assets-ds")
     }
-    implementation("com.vinted:android-bloom-glide") {
+    implementation("com.vinted:android-bloom-glide:2.28.0") {
         exclude(group = "com.vinted", module = "android-bloom-assets-ds")
     }
     implementation("com.vinted:android-bloom-assets-marketplace:0.412.0")
