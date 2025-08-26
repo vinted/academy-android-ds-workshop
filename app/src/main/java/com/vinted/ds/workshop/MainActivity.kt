@@ -1,11 +1,20 @@
 package com.vinted.ds.workshop
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import com.vinted.bloom.compose.molecule.list.BloomVerticalList
+import com.vinted.bloom.compose.theme.BloomTheme
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContent {
+            BloomTheme {
+                BloomVerticalList {
+
+                }
+            }
+        }
     }
 }
