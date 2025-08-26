@@ -42,6 +42,9 @@ dependencies {
     implementation("com.vinted:android-bloom-marketplace:2.28.0") {
         exclude(group = "com.vinted", module = "android-bloom-assets-ds")
     }
+    implementation("com.vinted:android-bloom-glide") {
+        exclude(group = "com.vinted", module = "android-bloom-assets-ds")
+    }
     implementation("com.vinted:android-bloom-assets-marketplace:0.412.0")
     implementation("androidx.core:core-ktx:1.17.0")
     implementation("androidx.appcompat:appcompat:1.7.1")
